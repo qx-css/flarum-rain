@@ -1,0 +1,5 @@
+qx-rain-effect:
+    admin:
+        enabled: "启用雨滴特效"
+        intensity: "雨滴密度"
+        color: "雨滴颜色"

@@ -1,0 +1,24 @@
+{
+    "name": "qx/flarum-ext-rain",
+    "description": "Beautiful rain drop effect for Flarum forum",
+    "type": "flarum-extension",
+    "keywords": ["flarum", "rain", "effect", "animation", "weather"],
+    "license": "MIT",
+    "authors": [{
+        "name": "qx",
+        "email": "your-email@example.com"
+    }],
+    "require": {
+        "flarum/core": "^1.0"
+    },
+    "extra": {
+        "flarum-extension": {
+            "title": "Rain Effect",
+            "icon": {
+                "name": "fas fa-cloud-rain",
+                "backgroundColor": "#1e87f0",
+                "color": "#fff"
+            }
+        }
+    }
+}
