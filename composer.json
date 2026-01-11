@@ -1,0 +1,30 @@
+{
+    "name": "qx-dev/flarum-rain-effect",
+    "description": "Beautiful rain drop effect for Flarum forum - 为Flarum论坛添加美丽的雨滴特效",
+    "type": "flarum-extension",
+    "keywords": ["flarum", "rain", "effect", "animation", "weather", "特效", "雨滴"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "qx",
+            "email": "your.email@example.com",
+            "homepage": "https://github.com/你的GitHub用户名"
+        }
+    ],
+    "require": {
+        "flarum/core": "^1.0"
+    },
+    "extra": {
+        "flarum-extension": {
+            "title": "Rain Effect - 雨滴特效",
+            "category": "theme",
+            "icon": {
+                "name": "fas fa-cloud-rain",
+                "backgroundColor": "#1e87f0",
+                "color": "#fff"
+            }
+        }
+    },
+    "minimum-stability": "beta",
+    "prefer-stable": true
+}
